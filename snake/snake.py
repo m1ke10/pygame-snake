@@ -4,7 +4,6 @@ import tkinter as tk
 from tkinter import messagebox
 import random
 import math
-import os
 # Create the main application window (optional)
 root = tk.Tk()
 root.withdraw()  # Hide the main window (it won't be shown)
