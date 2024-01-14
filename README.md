@@ -1,6 +1,6 @@
 # Pygame Snake
 
-a snake game made in pytho
+a snake game made in python
 ## Table of Contents
 
 - [Project Overview](#project-overview)
