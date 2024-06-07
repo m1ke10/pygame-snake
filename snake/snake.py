@@ -62,25 +62,13 @@ while running:
         xvel = 0
         yvel = 10
     if square_x > 630:
-        xvel = 0
-        yvel = 0
-        square_x = 630
-        you_lose(points)
-    if square_x < 1:
         square_x = 0
-        xvel = 0
-        yvel = 0
-        you_lose(points)
+    if square_x < 1:
+        square_x = 630
     if square_y > 470:
-        xvel = 0
-        yvel = 0
-        square_x = 470
-        you_lose(points)
+        square_x = 0
     if square_y < 1:
-        square_y = 0
-        xvel = 0
-        yvel = 0
-        you_lose(points)
+        square_y = 470
     def are_last_elements_duplicated():
         if not position_x or not position_y:
             return False 
